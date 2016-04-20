@@ -16,4 +16,9 @@ class Rental {
     public Movie getMovie() {
         return movie;
     }
+
+    /**
+     * @return
+     */
+        // determine amounts for each line
 }
