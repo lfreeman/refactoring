@@ -19,8 +19,6 @@ public class CustomerTest {
                 "\tmovie3\t7.5\n" +
                 "Amount owed is 38.0\n" +
                 "You earned 4 frequent renter points";
-        System.out.println(expected);
-        System.out.println(customer1.statement());
         assertEquals(expected, customer1.statement());
     }
 
